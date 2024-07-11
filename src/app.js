@@ -4,7 +4,7 @@ const articleRoutes = require('./routes/articleRoutes');
 
 app.use(express.json());
 
-app.use('/api', articleRoutes);
+app.use( articleRoutes);
 
 const PORT = process.env.PORT || 5000;
 
